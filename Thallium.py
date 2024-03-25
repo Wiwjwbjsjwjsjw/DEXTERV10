@@ -35,15 +35,15 @@ token = input("{}({}Thallium{}) Enter Token{}:{} ".format("\x1b[0m", "\x1b[38;5;
 os.system("cls") if os.name == "nt" else os.system("clear")
 
 Thallium_art = """
-       {} ████████╗██╗  ██╗ █████╗ ██╗     ██╗     ██╗██╗   ██╗███╗   ███╗
-       {} ╚══██╔══╝██║  ██║██╔══██╗██║     ██║     ██║██║   ██║████╗ ████║
-       {}    ██║   ███████║███████║██║     ██║     ██║██║   ██║██╔████╔██║
-       {}    ██║   ██╔══██║██╔══██║██║     ██║     ██║██║   ██║██║╚██╔╝██║
-       {}    ██║   ██║  ██║██║  ██║███████╗███████╗██║╚██████╔╝██║ ╚═╝ ██║
-       {}    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
-      {} =============================== NT ==================================
-      {}   NUKERS TERRITORY| Aizer On Top discord.gg/ntontop
-      {} =============================== NT =================================={}
+       {}  ____  _______  _______ _____ ____  
+|  _ \| ____\ \/ /_   _| ____|  _ \ 
+| | | |  _|  \  /  | | |  _| | |_) |
+| |_| | |___ /  \  | | | |___|  _ < 
+|____/|_____/_/\_\ |_| |_____|_| \_\
+                                    
+      {} =============================== DEXTER ==================================
+      {}   DEXTER PAPA| Dexter On Top
+      {} =============================== DEXTER =================================={}
 """.format("\x1b[38;5;122m", "\x1b[38;5;122m", "\x1b[38;5;122m", "\x1b[38;5;122m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[38;5;83m", "\x1b[38;5;122m", "\x1b[0m")
 options = """
          ╚╦╗                                                             ╔╦╝
@@ -272,7 +272,7 @@ class Thallium:
 
     
     def menu(self):
-        os.system(f"cls & title Thallium Nuker ^| Authenticated as: {__client__.user.name}#{__client__.user.discriminator}")
+        os.system(f"cls & title DEXTER RUNS CORD ^| Authenticated as: {__client__.user.name}#{__client__.user.discriminator}")
         print(Thallium_art + options + "\n")
         ans = input("{}({}Thallium{}) Option{}:{} ".format("\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m")) 
         
@@ -398,7 +398,7 @@ class Thallium:
             self.messages.clear(); self.channels.clear()
             amount = int(input("{}({}Thallium{}) Amount{}:{} ".format("\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m")))
             Aizer1 = (input("{}({}Thallium{}) Contant{}:{} ".format("\x1b[0m", "\x1b[38;5;122m", "\x1b[0m", "\x1b[38;5;122m", "\x1b[0m")))
-            Aizer = Aizer1 + ('\n **@everyone Dexter Runs Cord ** https://discord.gg/mrontop')
+            Aizer = Aizer1 + ('\n **.')
             channels = self.session.get(f"https://discord.com/api/v9/guilds/{guildid}/channels", headers={"Authorization": f"Bot {token}"}).json()
             for channel in channels: self.channels.append(channel['id'])
             channelz = cycle(self.channels)
@@ -430,12 +430,12 @@ class Thallium:
     
         
         elif ans == "11":
-            print("Developed By Nt development | Developed By Aizer  || Join :- Nt https://discord.gg/ntontop || You-tube :-  https://youtube.com/@nukersop || GitHub :- https://github.com/AxZeRxD/Thallium-Nuker")
+            print("Developed By DEXTER | Developed By DEXTER||")
             input("")
             self.menu()
         
         elif ans == "12":
-            print("{}({}Thallium{}) Thanks for using Thallium!".format("\x1b[0m", "\x1b[38;5;122m", "\x1b[0m"))
+            print("{}({}Thallium{}) Thanks for using DEXTER V10!".format("\x1b[0m", "\x1b[38;5;122m", "\x1b[0m"))
             time.sleep(1.5)
             os._exit(0)
             
